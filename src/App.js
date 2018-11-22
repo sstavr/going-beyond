@@ -5,7 +5,7 @@ import PersonalDetails from './components/PersonalDetails/PersonalDetails';
 import EligibilityCriteria from './components/EligibilityCriteria/EligibilityCriteria';
 import EnergyProvider from './components/EnergyProvider/EnergyProvider';
 
-import logo from './logo.svg';
+import logoHeader from './assets/images/landscape.jpg';
 
 import './App.css';
 
@@ -15,7 +15,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <header className="App-header">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            Going Beyond
           </header>
 
           <Route path="/personal" component={PersonalDetails} />
