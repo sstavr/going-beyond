@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const personalDetails = (props) => {
-    return (
-        <h1>Personal Details</h1>
-    );
+class PersonalDetails extends Component {
+    render() {
+        return (
+            <h1>Personal Details</h1>
+        );
+    }
 }
 
-export default personalDetails;
+export default PersonalDetails;

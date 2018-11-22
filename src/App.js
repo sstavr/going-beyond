@@ -5,11 +5,10 @@ import PersonalDetails from './components/PersonalDetails/PersonalDetails';
 import EligibilityCriteria from './components/EligibilityCriteria/EligibilityCriteria';
 import EnergyProvider from './components/EnergyProvider/EnergyProvider';
 
-import logoHeader from './assets/images/landscape.jpg';
-
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
       <BrowserRouter>

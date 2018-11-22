@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const energyProvider = (props) => {
-    return (
-        <h1>Energy Provider</h1>
-    );
-}
+class EnergyProvider extends Component {
+    render() {
+        return (
+            <h1>Energy Provider</h1>
+        );
+    }
+} 
 
-export default energyProvider;
+export default EnergyProvider;
