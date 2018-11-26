@@ -5,6 +5,7 @@ import PersonalDetails from './components/PersonalDetails/PersonalDetails';
 import EligibilityCriteria from './components/EligibilityCriteria/EligibilityCriteria';
 import EnergyProvider from './components/EnergyProvider/EnergyProvider';
 
+import newLogo from './/assets/images/going-beyond.png';
 import './App.css';
 
 class App extends Component {
@@ -12,15 +13,14 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
-          <header className="App-header">
-            Going Beyond
-          </header>
-
+        <div>
+          <div className="LoginHeader">
+              <img src={newLogo} alt="Going Beyond" className="LoginImage" />
+          </div>
           <Route path="/personal" component={PersonalDetails} />
-          <Route path="/eligibility" component={EligibilityCriteria} />
-          <Route path="/energy-provider" component={EnergyProvider} />
-          <Route path="/" exact component={Login} />
+          <Route path="/eligibility" component={EligibilityCriteria} /> 
+          <Route path="/login" component={Login} />
+          <Route path="/" exact component={EnergyProvider} /> 
 
         </div>
         </BrowserRouter>

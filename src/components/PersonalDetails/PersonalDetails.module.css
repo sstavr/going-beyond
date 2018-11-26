@@ -1,0 +1,8 @@
+.FormStyle {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    width: 85%;
+    margin-left: auto;
+	margin-right: auto;
+}
